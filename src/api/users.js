@@ -1,7 +1,7 @@
 import axios from "axios";
 import { setToken, setUsername, getTokenConfig, setEmail } from "./token";
 
-const URL = `http://localhost:3000/api`;
+const URL = `/api`;
 
 //for admins
 export async function getUser(userId) {

@@ -128,7 +128,7 @@ const App = () => {
         >
           <Header />
           <ProductNav setSearchProducts={setSearchProducts} />
-          <Donate />
+          {/* <Donate /> */}
           <Switch>
             <Route exact path="/">
               <Home />

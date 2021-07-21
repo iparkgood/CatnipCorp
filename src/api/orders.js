@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getTokenConfig } from "./token";
 
-const URL = `http://localhost:3000/api`;
+const URL = `/api`;
 
 export async function getOrderByUser() {
   const { config } = getTokenConfig();
