@@ -1,0 +1,14 @@
+/* .cart-product {
+  margin-bottom: 12px;
+  padding: 12px 24px;
+}
+*/
+
+#cart-container {
+  /* min-height: 100vh; */
+} 
+
+#cart-header {
+  margin-bottom: 50px;
+  font-size: 2rem;
+}

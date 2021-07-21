@@ -1,0 +1,12 @@
+#welcome-user h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#welcome-user .container {
+  height: 100vh;
+}
+
+.auth-form {
+  height: 100vh;
+}

@@ -1,0 +1,27 @@
+
+#app {
+  background: #EDDFBC;
+  min-height: 100vh;
+}
+.navbar {
+  /* margin-bottom: 15px; */
+  background: #EDDFBC;
+}
+
+.navbar h2 {
+  font-size: 3rem;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid black;
+  margin-bottom: -2px;
+}
+
+#main-nav .nav-link {
+  font-size: 1.1rem;
+}
+
+#site-title{
+  color: black;
+  cursor: pointer;
+}

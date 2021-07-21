@@ -1,0 +1,22 @@
+.category__link {
+  font-size: 1.1em;;
+  padding: 8px;
+  color: black;
+  margin-right: 12px;
+}
+
+.category__link:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+#product-nav {
+  background: #EDDFBC;
+  margin-bottom: 16px;
+}
+
+#basic-navbar-nav {
+  justify-content: space-between;
+}

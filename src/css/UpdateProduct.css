@@ -1,0 +1,12 @@
+#product__form {
+  width: 500px;
+  padding: 15px;
+}
+
+#product__form .form-group {
+  margin-bottom: 15px;
+}
+
+#product__form button {
+  margin-right: 8px;
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  min-height: 100vh;
+}
+
+.product-container {
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.product-container .container {
+  min-height: 100vh;
+}
+
+.single-product-container {
+  min-height: 100vh;
+}
+
+.category-header {
+  font-size: 2rem;;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.product-container .row {
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.product-card {
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background: none;
+  border: 6px solid black;
+}
+
+.product-card-body {
+  width: 80%;
+  padding: 8px 8px 12px;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.product__image {
+  width: 500px;
+}
+
+.product__info {
+  /* box-shadow: 2px 2px 20px #f8f9f9;
+  border-radius: 5px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.product__info h1 {
+  margin-top: 20px;
+  padding-bottom: 0;
+}
+
+.product-rating {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.product-description {
+font-size: 1.1rem;
+}
+
+.product__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 12px;
+  margin-top: auto;
+}
+
+.product-price {
+  font-size: 1.4rem;
+}
+
+.button__container {
+  display: flex;
+  align-items: center;
+}
+
+.form-group {
+  margin: 0;
+}
+
+#add__product {
+  margin-right: 12px;
+}
+
+.admin__product__card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.admin__product__card img {
+  width: 200px;
+}
+
+.admin__product__card > .col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin__product__card button {
+  margin-bottom: 15px;
+  margin-right: -12px;
+}
+
+.admin-card-body {
+  width: 80%;
+}
+
+.update__product__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.admin__product__header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.product-reviews {
+  justify-content: center;
+  margin-top: 20px;
+  height: 100vh;
+}
+.review-form {
+  margin-top: 30px;
+}
